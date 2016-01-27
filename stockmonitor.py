@@ -1,4 +1,10 @@
 #!/usr/bin/python
+'''
+This application will use Google Finance API to get the Stock Value.
+After receiving the stock value, it will write the value to a Excel Sheet.
+This process will be repeated everyday except weekends.
+On weekends we will create a backup of the Excel sheet.
+'''
 import xlsxwriter
 import random
 import urllib2
