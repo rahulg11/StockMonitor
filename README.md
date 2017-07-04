@@ -1,2 +1,2 @@
 # StockMonitor
-New Stock Monitoring Application.
+Stock Monitoring Application.
